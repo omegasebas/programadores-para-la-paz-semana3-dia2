@@ -1,0 +1,11 @@
+Una función en JavaScript es un bloque de código reutilizable que ejecuta una tarea específica.
+Permite organizar instrucciones y evitar repetir código.
+
+Ejemplo: function sumar(a, b) { return a + b; }
+
+En procesos comunitarios, las funciones ayudan a tomar decisiones claras:
+1. Revisar si una propuesta cumple requisitos
+2. Verificar información antes de actuar
+3. Automatizar pasos de evaluación
+
+Esto hace los procesos más transparentes y auditables.
