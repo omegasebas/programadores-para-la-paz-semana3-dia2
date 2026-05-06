@@ -1,12 +1,12 @@
-function evaluarPropuestaComunitaria(tieneLenguajeClaro, pideSoloDatosNecesarios) {
-  if (tieneLenguajeClaro === true && pideSoloDatosNecesarios === true) {
-    return "La propuesta está lista para ser compartida con la comunidad."
+function evaluarPropuesta(nombre, presupuesto, impacto) {
+  if (presupuesto < 500000 && impacto === "alto") {
+    return `Propuesta ${nombre}: Prioritaria`;
+  } else if (presupuesto > 2000000) {
+    return `Propuesta ${nombre}: Requiere comité`;
   } else {
-    return "La propuesta debe ajustarse antes de publicarse."
+    return `Propuesta ${nombre}: En evaluación`;
   }
 }
 
-const resultado = evaluarPropuestaComunitaria(true, true)
-
-console.log("Evaluación de propuesta comunitaria:")
-console.log(resultado)
+console.log(evaluarPropuesta("Huerta", 300000, "alto"));
+console.log(evaluarPropuesta("Puente", 3000000, "medio"));

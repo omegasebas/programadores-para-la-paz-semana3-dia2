@@ -1,12 +1,10 @@
-function evaluarInformacion(tieneFuente, estaVerificada) {
-  if (tieneFuente === true && estaVerificada === true) {
-    return "La información puede compartirse con responsabilidad."
+function evaluarInformacion(dato, fuente) {
+  if (fuente === "oficial" && dato) {
+    return "Información verificada: confiable";
   } else {
-    return "La información debe revisarse antes de compartirse."
+    return "Información requiere revisión";
   }
 }
 
-const resultado = evaluarInformacion(true, true)
-
-console.log("Evaluación de información:")
-console.log(resultado)
+console.log(evaluarInformacion("Presupuesto 2024", "oficial"));
+console.log(evaluarInformacion("Rumor", "redes"));

@@ -1,0 +1,9 @@
+Comandos ejecutados CLASE 12:
+1. git checkout -b karen_santiago
+2. npm init -y
+3. node funcion-saludo.js
+4. node evaluar-informacion.js
+5. node evaluar-propuesta.js
+6. git add .
+7. git commit -m "Funciones simples en JavaScript semana 3 dia 2"
+8. git push origin karen_santiago

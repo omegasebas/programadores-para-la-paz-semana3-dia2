@@ -1,0 +1,9 @@
+Las funciones en programación reflejan cómo tomamos decisiones en comunidad.
+
+Así como una función recibe datos y devuelve un resultado, en los procesos comunitarios recibimos propuestas y decidimos según criterios claros: presupuesto, impacto, viabilidad.
+
+Usar funciones obliga a definir reglas transparentes. Por ejemplo, la función evaluarPropuesta() no decide por favoritismo, sino por lógica: si es barata y de alto impacto, es prioritaria.
+
+Esto evita corrupción y subjetividad. Documentar el proceso en código crea confianza porque cualquiera puede auditar cómo se tomó la decisión.
+
+En mi comunidad, aplicar esta lógica ayudaría a priorizar proyectos de forma justa y visible para todos.

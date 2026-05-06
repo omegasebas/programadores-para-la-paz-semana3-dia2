@@ -1,6 +1,6 @@
-function saludarComunidad(nombreComunidad) {
-  console.log("Bienvenida comunidad:", nombreComunidad)
-  console.log("Hoy seguimos aprendiendo JavaScript paso a paso.")
+function saludar(nombre) {
+  return `Hola ${nombre}, bienvenida a Programadores para la Paz`;
 }
 
-saludarComunidad("Programadores para la Paz")
+console.log(saludar("Karen"));
+console.log(saludar("Comunidad"));
